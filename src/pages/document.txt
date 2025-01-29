@@ -1,0 +1,41 @@
+ {/* login form */}
+        <div className="bg-white text-black w-[40%] h-[29rem] rounded-t-3xl p-10">
+          <h1 className=" font-bold text-[#FE5418] text-xl">
+            Login with Password{" "}
+          </h1>
+          <input
+            type="text"
+            placeholder="Mobile/ Email"
+            className=" border p-2 mt-5 rounded-md w-full focus:outline-none focus:ring-2 hover:border-orange-500  focus:ring-orange-300"
+          />
+          <br />
+          <input
+            type="password"
+            placeholder="Password"
+            className=" border p-2 mt-5 rounded-md w-full focus:outline-none focus:ring-2 hover:border-orange-500  focus:ring-orange-300"
+          />
+          <button className="bg-[#FE5418] hover:bg-orange-500 w-full p-2 text-white text-xl rounded-md mt-20">
+            Login
+          </button>
+          <div className="text-blue-500 text-right mt-5">
+            <p className="hover:underline">Reset Password</p>
+            <p className="hover:underline">Create a new account</p>
+            <p className="hover:underline">Register as Global Seller</p>
+          </div>
+        </div>
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+
+         <div className="w-[50%] ">
+          <p className="font-bold text-[60px]">Become A Daraz Seller Today!</p>
+          <p className="font-bold text-xl">
+            Create a Daraz seller account now and reach millions of customers!
+          </p>
+          <img
+            src="/public/image/cart.png"
+            alt="cart img"
+            className="h-[20rem]"
+          />
+        </div>
